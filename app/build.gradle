@@ -49,6 +49,7 @@ dependencies {
 
     implementation "com.google.dagger:hilt-android:2.44"
     kapt "com.google.dagger:hilt-compiler:2.44"
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha01"
 
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.4'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4'
@@ -70,7 +71,6 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:2.5.1"
     implementation 'com.github.bumptech.glide:glide:4.13.2'
     kapt 'com.github.bumptech.glide:compiler:4.13.2'
-
 
     // TestImplementations
     implementation "androidx.test:core:1.4.0"
