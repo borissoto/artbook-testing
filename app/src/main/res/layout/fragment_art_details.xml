@@ -23,7 +23,7 @@
         android:layout_marginBottom="13dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/enter_name"
+        android:hint="@string/enter_name"
         app:layout_constraintBottom_toTopOf="@+id/artistText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -36,7 +36,7 @@
         android:layout_marginBottom="11dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/enter_artist"
+        android:hint="@string/enter_artist"
         app:layout_constraintBottom_toTopOf="@+id/yearText"
         app:layout_constraintStart_toStartOf="@+id/nameText"
         app:layout_constraintTop_toBottomOf="@+id/nameText" />
@@ -48,7 +48,7 @@
         android:layout_marginBottom="27dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/enter_year"
+        android:hint="@string/enter_year"
         app:layout_constraintBottom_toTopOf="@+id/saveButton"
         app:layout_constraintStart_toStartOf="@+id/artistText"
         app:layout_constraintTop_toBottomOf="@+id/artistText" />

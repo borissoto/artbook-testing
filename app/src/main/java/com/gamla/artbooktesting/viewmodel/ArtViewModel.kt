@@ -1,6 +1,5 @@
 package com.gamla.artbooktesting.viewmodel
 
-import androidx.hilt.lifecycle.ViewModelInject
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -9,9 +8,12 @@ import com.gamla.artbooktesting.model.ImageResponse
 import com.gamla.artbooktesting.repository.ArtRepositoryInterface
 import com.gamla.artbooktesting.roomdb.Art
 import com.gamla.artbooktesting.util.Resource
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class ArtViewModel @ViewModelInject constructor(
+@HiltViewModel
+class ArtViewModel @Inject constructor(
     private val repository: ArtRepositoryInterface
 ) : ViewModel() {
 
